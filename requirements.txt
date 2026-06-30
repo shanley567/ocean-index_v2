@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+
+# ← NEW: Async SQLAlchemy
+SQLAlchemy>=2.0
+
+# ← NEW: Async PostgreSQL driver
+asyncpg
+
+# ← NEW: Pydantic for models (FastAPI uses this)
+pydantic

@@ -1,3 +1,9 @@
-# ocean-index_v2
+# Ocean Index (Containerised Version)
 
-Containerised dive log/map project with Postgres+PostGIS and FastAPI.
+A modular, container-first dive logging and mapping system using:
+
+- FastAPI
+- PostgreSQL + PostGIS
+- Docker Compose
+- Ingestion pipelines for Suunto XML and Garmin FIT/CSV
+
